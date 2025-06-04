@@ -1,3 +1,4 @@
 groq-sdk==0.4.2
 gradio==4.21.0
 gunicorn==21.2.0
+uvicorn[standard]==0.29.0
