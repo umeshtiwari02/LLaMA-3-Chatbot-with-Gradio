@@ -1,1 +1,5 @@
 groq==0.26.0
+fastapi
+uvicorn
+gunicorn
+python-dotenv
