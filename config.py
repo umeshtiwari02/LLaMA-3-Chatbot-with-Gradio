@@ -1,4 +1,4 @@
-api_key="your_api_key"
+api_key="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"
 
 sys_prompt = """
 **USER INSTRUCTIONS**
