@@ -1,10 +1,10 @@
-from groq import GroqClient
+from groq import Groq
 import gradio as gr
 from config import api_key, sys_prompt
 import os
 
-# Initialize Groq client
-client = GroqClient(api_key=api_key)
+# Initialize Groq
+client = Groq(api_key=api_key)
 
 # Load custom CSS
 def load_css():
