@@ -1,4 +1,4 @@
-from gorq import Groq
+from groq import Groq
 import gradio as gr
 from config import api_key
 from config import sys_prompt
