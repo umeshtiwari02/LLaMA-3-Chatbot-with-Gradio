@@ -1,4 +1,4 @@
-from groq import Groq
+from groqclient import Groq
 import gradio as gr
 from config import api_key
 from config import sys_prompt
@@ -195,4 +195,8 @@ with gr.Blocks(
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=8080,
+        auth=("admin", "password123") if os.getenv('RENDER') else None
+    )
