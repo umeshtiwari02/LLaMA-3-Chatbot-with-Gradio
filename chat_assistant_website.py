@@ -196,6 +196,8 @@ with gr.Blocks(
 
 if __name__ == "__main__":
     demo.launch(
+        server_name="0.0.0.0",
+        server_port=8080,
         auth=("admin", "password123"),
         auth_message="Please log in with valid username and password.",
         share=True
